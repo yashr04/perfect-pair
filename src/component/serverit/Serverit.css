@@ -1,0 +1,78 @@
+/* Serverit.css */
+
+.container1 {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 900px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn1 {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn1-add {
+    background-color: #4caf50;
+  }
+  
+  .btn1-add:hover {
+    background-color: #45a049;
+  }
+  
+  .tableContainer11 {
+    overflow-x: auto;
+  }
+  
+  .table22 {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table22 th,
+  .table22 td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .table22 th {
+    background-color: #f2f2f2;
+  }
+  
+  .btn {
+    padding: 8px 12px;
+    margin-right: 5px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-edit1 {
+    background-color: #ffc107;
+    color: #fff;
+  }
+  
+  .btn-edit1:hover {
+    background-color: #ffca28;
+  }
+  
+  .btn-del1 {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  .btn-del1:hover {
+    background-color: #e57373;
+  }
+  

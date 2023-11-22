@@ -1,0 +1,70 @@
+/* Section Styles */
+.about-us {
+  padding: 40px 20px; /* Decrease top/bottom padding on smaller screens */
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.about-us .heading h1 {
+  font-size: 28px; /* Decrease font size for heading on smaller screens */
+  margin-bottom: 15px; /* Reduce margin bottom for heading */
+  color: #333;
+}
+
+.about-us p {
+  font-size: 16px; /* Decrease font size for paragraphs on smaller screens */
+  color: #666;
+}
+
+/* Container for Cards */
+.about-container {
+  display: flex;
+  flex-wrap: wrap; /* Enable wrapping for smaller screens */
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px; /* Reduce top margin on smaller screens */
+}
+
+/* Individual Card Styles */
+.about-card {
+  width: calc(50% - 40px); /* Two cards per row on smaller screens */
+  margin: 10px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.about-card:hover {
+  transform: translateY(-5px); /* Reduce hover translation on smaller screens */
+}
+
+.about-card h2 {
+  font-size: 20px; /* Decrease font size for card headings on smaller screens */
+  margin-bottom: 10px; /* Reduce margin bottom for card headings */
+  color: #333;
+}
+
+.about-card p {
+  font-size: 14px; /* Decrease font size for card paragraphs on smaller screens */
+  color: #666;
+}
+
+/* Button Styles */
+.btn-about {
+  padding: 8px 16px; /* Decrease button padding on smaller screens */
+  font-size: 14px; /* Decrease font size for buttons on smaller screens */
+  background-color: rgba(12, 139, 12, 0.708);
+}
+
+/* 3D Effect on Hover */
+.about-card {
+  perspective: 1000px;
+}
+
+@media screen and (max-width: 768px) {
+  .about-card {
+    width: calc(100% - 40px); /* Single card per row on smaller screens */
+  }
+}

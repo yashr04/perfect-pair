@@ -1,0 +1,60 @@
+.review-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card-deck {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center cards on smaller screens */
+}
+
+.card {
+  width: calc(50% - 20px); /* Two cards per row on smaller screens */
+  margin-bottom: 10px;
+  /* Other card styles */
+}
+
+.card-img-top {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+  /* Adjust image height as needed */
+  max-height: 250px; /* Set a maximum height for the image */
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .card {
+    width: calc(50% - 20px); /* Two cards per row on medium screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    width: calc(100% - 20px); /* Single card per row on smaller screens */
+  }
+}

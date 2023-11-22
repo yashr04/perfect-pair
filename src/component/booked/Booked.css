@@ -1,0 +1,36 @@
+/* Booked.css */
+
+.confirmation-container {
+    text-align: center;
+    margin: 50px auto;
+    padding: 30px;
+    max-width: 400px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .confirmation-icon {
+    font-size: 48px;
+    color: #4caf50;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .cheesy-line {
+    font-style: italic;
+    font-size: 16px;
+    color: #777;
+  }
+  

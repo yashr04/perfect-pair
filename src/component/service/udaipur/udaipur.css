@@ -1,0 +1,115 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+ .container{
+  height: max-content;
+  width: 1200px;
+  margin: 20px auto;
+ }
+ .heading1{
+  font-size: 42px;
+  color: rgb(123, 19, 136);
+
+ }
+ .heading2{
+  font-size: 35px;
+  color: rgb(123, 19, 136);
+ }
+ 
+
+ .heading3{
+  font-size: 23px;
+  color: rgb(212, 44, 72);
+ }
+ span{
+  font-weight: 700;
+ }
+
+ .details{
+  margin-left: 20px;
+ }
+ .sub{
+  font-size: 18px;
+ }
+
+
+.section-2{
+  display: flex;
+  flex-direction: column;
+}
+
+.title{
+  font-size: 3rem;
+  margin: 6vh;
+  color: rgb(123, 19, 136);
+  padding: 1vh 5vw;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.card{
+  width: 350px;
+  height: max-content;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.image{
+  width: 330px;
+  aspect-ratio: 1/1; 
+  object-fit: cover;
+  box-shadow: 0 0 20px #333;
+}
+
+
+
+.tour-name{
+  font-size: 1.2rem;
+  position: absolute;
+  left: 12px;
+  padding: 0 1.2rem;
+  width: max-content;
+  color: white;
+  background-color: rgba(137, 43, 226, 0.24);
+}
+
+.card:hover{
+  transform: scale(1.03);
+  transition: 2s;
+
+}
+
+.card figcaption{
+  position: absolute;
+  bottom: 5px;
+  left: 0%;
+  padding: 30px;
+  width: 100%;
+  height: 11%;
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+  opacity: 0;
+  border-radius: 0 0 10px 10px;
+  transition: 0.3s;
+  overflow: hidden;
+} 
+.card:hover figcaption{
+  opacity: 1;
+  transform: scale(1);
+}
+
